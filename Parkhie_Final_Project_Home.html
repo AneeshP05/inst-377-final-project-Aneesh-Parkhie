@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather Planner</title>
+<link rel="stylesheet" href="Parkhie_Final_Project_Styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+<body>
+
+<nav>
+<a href="Parkhie_Final_Project_Home.html">Home</a>
+<a href="Parkhie_Final_Project_Forecast.html">Forecast Details</a>
+<a href="Parkhie_Final_Project_Alerts.html">Alerts</a>
+<a href="Parkhie_Final_Project_Favorites.html">Favorites</a>
+</nav>
+
+<div class="box">
+<h1>Weather Planner</h1>
+
+<p>Enter a city or coordinates.</p>
+
+<input id="cityInput" placeholder="City">
+<input id="latInput" placeholder="Latitude">
+<input id="lonInput" placeholder="Longitude">
+
+<button onclick="loadWeather()">Get Weather</button>
+<button onclick="saveFavorite()">Save Favorite</button>
+
+<h2 id="locationName"></h2>
+<p id="currentTemp"></p>
+<p id="conditions"></p>
+
+<h2>10 Day Forecast</h2>
+<div id="dailyForecast"></div>
+
+<div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="Parkhie_Final_Project_Home.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e8eef5;
+}
+
+nav {
+    background: #26384d;
+    padding: 14px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #aad4ff;
+}
+
+.box {
+    background: white;
+    margin: 25px;
+    padding: 20px;
+    border: 1px solid #aaa;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    background: #2d75c7;
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4f8c;
+}
+
+#map {
+    height: 300px;
+    margin-top: 20px;
+}
+
+.alertCard,
+.favoriteCard {
+    border: 1px solid #999;
+    padding: 12px;
+    margin-top: 15px;
+    background: #f4f7fb;
+}
